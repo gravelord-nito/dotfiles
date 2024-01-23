@@ -5,7 +5,7 @@
 - [Arch linux](https://wiki.archlinux.org/)
 - [Hyprland](https://hyprland.org/) ([Hyprdots](https://github.com/prasanthrangan/hyprdots))
 - [Neovim](https://neovim.io/) ([Lazyvim](https://www.lazyvim.org/))
-- [fish shell](https://fishshell.com/)
+- [bash](https://www.gnu.org/software/bash/)
 - [Kitty](https://sw.kovidgoyal.net/kitty/)
 
 
