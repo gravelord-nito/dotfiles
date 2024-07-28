@@ -1,10 +1,6 @@
-##Get active workspace, and translate to rows and cols
-
 active_ws=$(hyprctl monitors | grep "focused: yes" -B 10 | grep "active workspace" | awk -F': ' '{print $2}' | cut -d' ' -f1)
 
 active_ws=$(($active_ws - 1))
-
-##Apply transformation
 
 function add() {
 	ret=$(($1 + $2))
@@ -19,8 +15,6 @@ case $1 in
 "left") active_ws=$((($active_ws + 3) % 4)) ;;
 *) active_ws=$((($active_ws + 1) % 4)) ;;
 esac
-
-## translate col+row back to workspace number and apply
 
 active_ws=$(($active_ws + 1))
 
